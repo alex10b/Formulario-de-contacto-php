@@ -1,0 +1,44 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color:white;
+}
+#wrap {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;;
+    height: 60vh;
+    width: 80%;
+
+    max-width: 500px;
+ background-color: blanchedalmond;
+    color:brown;
+}
+input,textarea,.alert{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 4em;
+    width: 80%;
+    border-color: beige;
+   
+}
+.alert{
+    max-height: 10em;
+}
+input:hover{
+    border-color: cadetblue;
+}
+
+textarea:hover{
+    border-color: cadetblue;
+}
+textarea {
+    min-width: 80%;
+    min-height: 4em;
+    max-height: 11em;
+}
+#btn{
+    background-color: chocolate;
+}
